@@ -26,7 +26,7 @@ export default class DinoHangman {
       this.incorrectGuess += letter;
     } else {
       indexes.forEach((index) => {
-        this.currentState[index] = letter;
+        this.currentState[index] = letter.toLowerCase();
         this.currentState[0] = this.currentState[0].toUpperCase();
       });
     }

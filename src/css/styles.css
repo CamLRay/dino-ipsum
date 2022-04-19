@@ -1,3 +1,30 @@
 .hidden {
   display:none;
 }
+body  {
+  background-color: antiquewhite;
+}
+.btn {
+  color: antiquewhite;
+  background-color: black;
+  border: 2px solid black;
+}
+.btn:hover {
+  background-color: grey;
+  transition: all 0.5s;
+  transform: scale(1.15);
+}
+#displayName  {
+  text-align: center;
+  margin-top: 20%;
+}
+#start-game {
+  position: relative;
+  left: 40%;
+  top: 200px;
+  width:20%;
+}
+form  {
+  text-align: center;
+  margin-top: 10%;
+}

@@ -21,6 +21,7 @@ $("#start-game").click(function(){
   newDino.updateCurrentState();
   $("#displayName").text(newDino.currentState.join(" "));
   $("#chances").text(newDino.tries);
+  
 });
 
 
@@ -57,3 +58,4 @@ $('#play-again').click(function(){
   $("#displayName").text("");
   $('#play-again').addClass("hidden");
 });
+
