@@ -9,15 +9,12 @@
   </div>
   <div class="container">
     <button type="click" id="start-game" class="btn">Start Game</button>
+    <div class="img"></div>
     <h2 id="displayName"></h2>
     <div class="start-game hidden">
-      <form>
-        <input type="text" placehold="enter a letter"><br>
-        <div class="buttons"></div>
-        <!-- <button type="submit" class="btn">Submit Guess</button> -->
-        <h4>Chances left: <span id="chances"></span></h4>
-      </form>
-    </div>
+        <div class="button-container"></div>
+        <h4>Incorrect Guesses: <span id="chances"></span></h4>
+      </div>
     <button type="click" id="play-again" class="btn hidden">Play Again</button>
     <div id="displayError"></div>
   </div>

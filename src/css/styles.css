@@ -8,6 +8,7 @@ body  {
   color: antiquewhite;
   background-color: black;
   border: 2px solid black;
+  margin: 3px;
 }
 .btn:hover {
   background-color: grey;
@@ -16,7 +17,7 @@ body  {
 }
 #displayName  {
   text-align: center;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 #start-game {
   position: relative;
@@ -27,4 +28,19 @@ body  {
 form  {
   text-align: center;
   margin-top: 10%;
+}
+#play-again {
+  position: relative;
+  left: 45%;
+}
+.button-container {
+  width: 50%;
+  margin:auto;
+}
+
+.img {
+  height:207px;
+  width:207px;
+  margin-left:auto;
+  margin-right:auto;
 }

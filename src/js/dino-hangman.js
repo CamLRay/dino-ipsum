@@ -1,6 +1,6 @@
 export default class DinoHangman {
   constructor(){
-    this.tries = 6;
+    this.tries = 1;
     this.incorrectGuess = "";
   }
 
@@ -22,7 +22,7 @@ export default class DinoHangman {
       }
     }
     if(indexes.length === 0){
-      this.tries--;
+      this.tries++;
       this.incorrectGuess += letter;
     } else {
       indexes.forEach((index) => {
