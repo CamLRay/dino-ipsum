@@ -33,6 +33,7 @@ $("#start-game").click(function(){
   $('.button-container').removeClass('hidden');
   $(".button").attr("disabled", false);
   $(".img").html(`<img src='./assets/images/img-${newDino.tries}.png'>`);
+  $("#chances").text("")
 });
 
 $(".button").click(function(){
@@ -67,5 +68,6 @@ $('#play-again').click(function(){
   $("#displayName").text("");
   $('#play-again').addClass("hidden");
   $(".img").html('')
+  $("#chances").text("")
 });
 

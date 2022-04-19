@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
 .hidden {
   display:none;
 }
@@ -5,13 +6,16 @@ body  {
   background-color: antiquewhite;
 }
 .btn {
-  color: antiquewhite;
-  background-color: black;
-  border: 2px solid black;
+  color: #ab7338;
+  background-color: #278024;
+  border: 2px solid #278024;
   margin: 3px;
+  font-size: 1.5em;
+  font-weight: 900;
+  -webkit-text-stroke: 1px black;
 }
 .btn:hover {
-  background-color: grey;
+  background-color: rgb(92, 251, 0);
   transition: all 0.5s;
   transform: scale(1.15);
 }
@@ -43,4 +47,9 @@ form  {
   width:207px;
   margin-left:auto;
   margin-right:auto;
+}
+
+#chances {
+  font-family: 'Gochi Hand', cursive;
+  color: rgb(131, 35, 35);
 }
